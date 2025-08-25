@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio | Cristhian-Ch</title>
+  <meta name="description" content="Perfil y portafolio de estudiante de Cristian Chura." />
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div style="display:flex; align-items:center; gap:10px;">
+          <div class="avatar" style="width:36px;height:36px;border-radius:8px;">
+            <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop" alt="Avatar" />
+          </div>
+          <strong>Cristian Chura</strong>
+        </div>
+        <div class="nav-links">
+          <a href="./sections/presentacion.html">Presentación</a>
+          <a href="./sections/habilidades.html">Habilidades</a>
+          <a href="./sections/proyectos.html">Proyectos</a>
+          <a href="./sections/curriculum.html">CV</a>
+          <a href="./sections/contacto.html">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-label="Presentación">
+      <div class="hero-card">
+        <div class="chip">Estudiante de Informática y Sistemas</div>
+        <h1>Hola, soy <span style="color:var(--accent)">Cristian Chura</span> — futuro Ingeniero de Sistemas</h1>
+        <p>Enfocado en aprender y crecer. Reforzando mis bases en programación y desarrollo web y redes.</p>
+        <div style="display:flex; gap:10px; margin-top:14px; flex-wrap:wrap;">
+          <a class="btn primary" href="./sections/contacto.html">Contactar</a>
+          <a class="btn" href="https://github.com/Cristhian-Ch" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/cristian-chura-p-550263347/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+        <div class="kpi">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="muted">En proceso de formación y abierto a aprender</span>
+        </div>
+      </div>
+      <div class="grid" style="gap:16px;">
+        <div class="card">
+          <h3>Sobre mí</h3>
+          <p class="muted">Estudiante de Ingeniería de Informática y Sistemas. Construyendo fundamentos en programación, algoritmos, web y redes.</p>
+        </div>
+        <div class="card">
+          <h3>Contacto rápido</h3>
+          <p class="muted">Correo: <a href="mailto:cryptecdev@gmail.com">cryptecdev@gmail.com</a><br/>Ubicación: Tacna, Peru</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span>  · Hecho con ❤  por <a href="https://github.com/Cristhian-Ch">Cristhian-Ch</a></div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>
